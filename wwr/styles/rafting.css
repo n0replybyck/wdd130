@@ -124,9 +124,9 @@ article img {
         justify-content: space-around;
     }
 
-    /* Pictures */
+/* Pictures */
 
-    .adventure h2 {
+.adventure h2 {
         text-align: center;
         font-size: 2rem;
         margin: 1rem;
@@ -134,12 +134,12 @@ article img {
         padding: 1rem;
         background-color: var(--primary-color);
         color: var(--secondary-color);
-    }
+}
 
-    .adventure {
+.adventure {
         display: flex;
         flex-flow: row wrap;
-    }
+}
 
     .adventure img {
         width: 300px;
@@ -201,7 +201,6 @@ article img {
 
     .team h2 {
         margin-bottom: 30px;
-        color: var(--primary-color);
     }
 
     .team-members {
@@ -235,7 +234,7 @@ article img {
         width: 650px;
         margin: 0 auto;
         padding: 1rem;
-        background-color: lightsteelblue;
+        background-color: #ccc5b9;
         color: black;
         text-align: center;
         border-radius: 10px;
@@ -254,7 +253,7 @@ article img {
 
     legend {
         padding: 0.5rem;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     label {
@@ -302,6 +301,46 @@ article img {
 
     .column2 {
         grid-template-columns: 1fr 3fr;
+    }
+
+    .radio-purpose-field {
+        margin-bottom: 1.5rem;
+        grid-auto-columns: 1fr 1fr 1fr;
+
+    }
+    .radio-purpose {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px
+    }
+
+    .radio-purpose input[type="radio"] {
+        width: 22px;
+        margin: 0;
+    }
+    .radio-purpose label {
+        margin: 0;
+        padding: 0;
+    }
+
+    .checkbox-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 1rem 0;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+        width: 22px;
+        margin: 0;
+    }
+    .checkbox-group label {
+        margin: 0;
+        padding: 0;
     }
 
     /* Footer Section */
