@@ -518,7 +518,7 @@ button:hover {
     margin: 0 auto;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    width: 1200px;
+    width: auto;
     border-radius: 30px;
     box-shadow: 0 0 30px gray;
 }
@@ -610,7 +610,7 @@ td {
     margin: 0 auto;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    width: 1700px;
+    width: auto;
     border-radius: 30px;
     box-shadow: 0 0 10px gray;
     grid-template-columns: 1fr 1fr 1fr;
@@ -673,7 +673,7 @@ td {
     margin: 0 auto;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    width: 1700px;
+    width: auto;
     border-radius: 30px;
     box-shadow: 0 0 10px gray;
 }
